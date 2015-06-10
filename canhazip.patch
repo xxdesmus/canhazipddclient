@@ -7,7 +7,7 @@
 -   'dyndns'       => { 'url' => 'http://checkip.dyndns.org/', 'skip' =>
 -   'Current IP Address:', },
 +   'dyndns'       => { 'url' => 'http://checkip.dyndns.org/', 'skip' => 'Current IP Address:', },
-+	'canhazip'     => { 'url' => 'http://canhazip.com', 'skip' => '', },
++	  'canhazip'     => { 'url' => 'http://canhazip.com', 'skip' => '', },
     'dnspark'      => { 'url' => 'http://ipdetect.dnspark.com/', 'skip' => 'Current Address:', },
     'loopia'       => { 'url' => 'http://dns.loopia.se/checkip/checkip.php', 'skip' => 'Current Address:', },
  );
