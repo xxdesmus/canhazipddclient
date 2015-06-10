@@ -1,12 +1,11 @@
 # CanhazIP.com DDclient support
 This patch adds support to DDclient for canhazip.com
 
-
 ### Step 1. install DDclient (I'll let you figure that out)
 
 ### Step 2. locate DDclient (Ubuntu = /usr/sbin/ddclient):
 ```
-# which ddclient
+$ which ddclient
 /usr/sbin/ddclient
 ```
 
