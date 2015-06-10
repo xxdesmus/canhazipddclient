@@ -1,5 +1,5 @@
---- ddclient.orig	2015-06-09 20:04:57.000000000 -0700
-+++ ddclient.new.orig	2015-06-09 20:07:08.000000000 -0700
+--- ddclient	2015-06-09 20:04:57.000000000 -0700
++++ ddclient.patched	2015-06-09 20:07:08.000000000 -0700
 @@ -62,8 +62,8 @@
  
  ## strategies for obtaining an ip address.
