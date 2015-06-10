@@ -21,4 +21,9 @@ $ patch /usr/sbin/ddclient < canhazip.patch
 patching file ddclient
 ```
 
-### Step 5. that's it -- use DDclient, or add CloudFlare support also: [CloudFlare DDclient patch](http://blog.peter-r.co.uk/cloudflare-ddclient-patch.html)
+### Step 5. in your ddclient.conf file enter:
+```
+use=web, web=canhazip
+```
+
+### Step 6. that's it -- use DDclient, or add CloudFlare support also: [CloudFlare DDclient patch](http://blog.peter-r.co.uk/cloudflare-ddclient-patch.html)
