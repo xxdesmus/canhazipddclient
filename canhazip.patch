@@ -1,0 +1,13 @@
+--- ddclient.orig	2015-06-09 20:04:57.000000000 -0700
++++ ddclient.new.orig	2015-06-09 20:07:08.000000000 -0700
+@@ -62,8 +62,8 @@
+ 
+ ## strategies for obtaining an ip address.
+ my %builtinweb = (
+-   'dyndns'       => { 'url' => 'http://checkip.dyndns.org/', 'skip' =>
+-   'Current IP Address:', },
++   'dyndns'       => { 'url' => 'http://checkip.dyndns.org/', 'skip' => 'Current IP Address:', },
++	'canhazip'     => { 'url' => 'http://canhazip.com', 'skip' => '', },
+    'dnspark'      => { 'url' => 'http://ipdetect.dnspark.com/', 'skip' => 'Current Address:', },
+    'loopia'       => { 'url' => 'http://dns.loopia.se/checkip/checkip.php', 'skip' => 'Current Address:', },
+ );
